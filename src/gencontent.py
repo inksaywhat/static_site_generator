@@ -26,6 +26,11 @@ def generate_page(from_path, template_path, dest_path, basepath):
 
     node = markdown_to_html_node(markdown_content)
     html = node.to_html()
+    # <<<<<<<<< THESE LINES GO HERE >>>>>>>>>
+    print("--- GENERATED HTML CONTENT ---")
+    print(html) # This is the line we want to see!
+    print("----------------------------")
+    # <<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 
     title = extract_title(markdown_content)
     template = template.replace("{{ Title }}", title)
@@ -46,3 +51,4 @@ def extract_title(md):
         if line.startswith("# "):
             return line[2:]
     raise ValueError("no title found")
+
