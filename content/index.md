@@ -14,7 +14,7 @@ Here's the deal, **I like Tolkien**.
 
 ## Reasons I like Tolkien
 
-- You can spend years studying the legendarium and still not understand its depths
+- <i>legendarium</i>
 - It can be enjoyed by children and adults alike
 - <i>didn't ruin it</i>
 - It created an entirely new genre of fantasy
